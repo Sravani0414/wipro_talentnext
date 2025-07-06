@@ -1,14 +1,16 @@
 package java_fundamental;
 import java.util.*;
-public class question13 {
-	public static void main(String[] args) {
-	System.out.println("Prime numbers between 10 and 99 are:");
+public class question12 {
 
-    for (int num = 10; num <= 99; num++) {
+	public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
         boolean isPrime = true;
 
         if (num <= 1) {
-            isPrime = false;
+            isPrime = false; // 0 and 1 are not prime
         } else {
             for (int i = 2; i <= num / 2; i++) {
                 if (num % i == 0) {
@@ -19,8 +21,13 @@ public class question13 {
         }
 
         if (isPrime) {
-            System.out.println(num);
+            System.out.println(num + " is a prime number.");
+        } else {
+            System.out.println(num + " is not a prime number.");
         }
-    }
-}
+
+        sc.close();// TODO Auto-generated method stub
+
+	}
+
 }
