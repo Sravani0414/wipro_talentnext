@@ -10,7 +10,7 @@ Scanner sc = new Scanner(System.in);
         boolean isPrime = true;
 
         if (num <= 1) {
-            isPrime = false; // 0 and 1 are not prime
+            isPrime = false; 
         } else {
             for (int i = 2; i <= num / 2; i++) {
                 if (num % i == 0) {

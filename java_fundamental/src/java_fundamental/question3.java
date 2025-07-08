@@ -1,6 +1,6 @@
 package java_fundamental;
 
-import java.util.Scanner;
+import java.util.*;;
 
 public class question3 {
 			public static void main(String[] args) {
