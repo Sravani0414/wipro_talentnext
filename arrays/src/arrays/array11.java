@@ -8,7 +8,7 @@ public class array11 {
 	        boolean hasOne = false;
 	        boolean hasFour = false;
 
-	        // Loop through array to check for 1 and 4
+	        
 	        for (int num : nums) {
 	            if (num == 1) {
 	                hasOne = true;
@@ -18,7 +18,7 @@ public class array11 {
 	            }
 	        }
 
-	        // Print true only if both 1 and 4 are present
+	        
 	        System.out.println(hasOne && hasFour);// TODO Auto-generated method stub
 
 	}
